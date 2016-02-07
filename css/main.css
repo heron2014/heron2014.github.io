@@ -2,7 +2,6 @@
 
 html {
   font-size: 1em;
-  line-height: 1.4;
 }
 
 ::-moz-selection {
@@ -60,7 +59,7 @@ body {
   font: 16px/1.5 'Open Sans', Helvetica, Helvetica Neue, Arial, sans-serif;
   background-color: rgba(0, 0, 0, 0.92);
   color: #fff;
-  overflow-x: hidden;
+  overflow: hidden;
   height: 100%;
 }
 
@@ -163,6 +162,7 @@ strong {
   text-decoration: none;
   font-size: 0.7em;
   color: #fff;
+  outline: 0;
 }
 
 /* Nav effect: Brackets */
@@ -243,7 +243,7 @@ strong {
 
   #women-container {
     display: block;
-    width: 352px;
+    width: 300px;
     position: absolute;
     top: 1.5%;
     left: 70%;
@@ -253,9 +253,50 @@ strong {
 @media only screen and (min-width: 1200px) { 
 
   .slides-container,.slide, .bcg {
+    top: 60%;
+    width: 800px;
+    height: 575px;
+  }
+  
+  .slide-content {
+    top: 60%;
+    min-width: 800px;
+    min-height: 575px;
+    padding-left: 20px;
+  }
+
+  .slide {
+    margin-top: -287.5px;
+    margin-left: -400px;
+  }
+
+  .slide01 h1{
+    font-size: 2.4em;
+  }
+
+  .nav {
+    bottom: 60px;
+    right: 40px;
+    left: 40px;   
+  }
+
+  #women-container {
+    top: -0.1%;
+    left: 76%;
+  }
+  #women {
+    transform: scale(1.1);
+  }
+
+}
+
+@media only screen and (min-width: 1360px) { 
+
+  .slides-container,.slide, .bcg {
     top: 55.3%;
     width: 990px;
     height: 675px;
+    background-color: red;
   }
 
   .slide-content {

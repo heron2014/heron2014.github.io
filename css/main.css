@@ -296,7 +296,6 @@ strong {
     top: 55.3%;
     width: 990px;
     height: 675px;
-    background-color: red;
   }
 
   .slide-content {
@@ -316,14 +315,16 @@ strong {
   }
 
   .nav {
-    bottom: 40px;
-    right: 40px;
-    left: 40px;   
+    bottom: 60px; 
   }
 
   #women-container {
-    top: 0.8%;
+    top: 6%;
     left: 72%;
+  }
+
+  #women {
+    transform: scale(1.2);
   }
 
 }
